@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="firstapp">
 <head>
   <title>Node js</title>
   <meta charset="utf-8">
@@ -7,48 +7,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+   <script src="angular.min.js"></script>
+    <script src="apps.js"></script>
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div class="col-sm-4">
-			<h1>Div-1</h1>
-		</div>
-		<div class="col-sm-4">
-			<h1>Div-2</h1>
-		</div>
-		<div class="col-sm-4">
-			<h1>Div-3</h1>
-		</div>
-		
-	</div>
-	<div class="row">
-		<div class="col-sm-4">
-			<h1>Div-1</h1>
-		</div>
-		<div class="col-sm-4">
-			<h1>Div-2</h1>
-		</div>
-		<div class="col-sm-4">
-			<h1>Div-3</h1>
-		</div>
-		
-	</div>
-	<div class="row">
-		<div class="col-sm-4">
-			<h1>Div-1</h1>
-		</div>
-		<div class="col-sm-4">
-			<h1>Div-2</h1>
-		</div>
-		<div class="col-sm-4">
-			<h1>Div-3</h1>
-		</div>
-		
-	</div>
-	
-</div>
 
+<div ng-controller="firstcontroller">
+	{{name}}
+</div>
 
 </body>
 </html>
